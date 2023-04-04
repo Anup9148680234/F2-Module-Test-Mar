@@ -1,0 +1,93 @@
+*{
+    font-family: 'Inter', sans-serif;  
+}
+
+body{
+    background-color:  #111111;
+    color:  #FFFFFF; 
+}
+
+h3{
+    font-size: 58px;
+    font-weight: 300;
+    margin-left: 3vw; 
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.Input_boxes{
+    margin-left: 2vw;
+}
+
+input  {
+    color: #FFFFFF;
+    width: 25vw;
+    height: 6vh;
+    
+    margin: 1vh 1vw;
+    background-color: #111111;
+    border: 2px solid #FFFFFF;
+    padding: 0 15px;
+}
+
+#addUser{
+    width: 40vw;
+    height: 6vh;
+    margin: 3vh 1vw;
+    margin-bottom: 5vh;
+    background-color: #FFFFFF;
+    box-shadow: none;
+    border: 1px solid white;
+}
+
+.display_table{
+    margin: 1vh 3vw;
+    height: 50vh;
+    /* border: 1px solid white; */
+}
+
+.table{
+    
+    width: 90vw;
+    border: 1px solid white;
+    border-collapse: collapse;
+    /* height: 50vh; */
+}
+
+thead{
+    height: 50px;
+    margin-top: 5px;
+    padding-left: 5vw;
+}
+
+thead > tr {
+    border: 1px solid white;
+    
+}
+
+thead > tr > th {
+    border-right: 1px solid white;
+}
+
+
+
+.table > tbody > tr >td{
+    border-left: 1px solid white;
+    padding-left: 2vw;
+    height: 10vh;
+}
+
+.table > tbody > tr >td > i:nth-child(1){
+    padding-left: 30%;
+}
+
+.search-div{
+    margin-left: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    width: 90vw;
+}
+
+#search{
+    width: 90vw;
+}

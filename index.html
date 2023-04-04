@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+            <h3>Student Management CRUD</h3>
+            <div class="Input_boxes">
+              <input type="text" class="form-control" placeholder="Name" id="name">
+              <input type="email" class="form-control" placeholder="Email" id="email">
+              <input type="gpa" class="form-control" placeholder="GPA" id="gpa">
+              <br>
+              <input type="age" class="form-control" placeholder="Age" id="age">
+              <input type="degree" class="form-control" placeholder="Degree" id="degree">
+              <br>
+              <button type="button" id="addUser">Add Student</button>
+            </div>
+
+            <div class="search-div">
+                <input type="search" class="form-control" placeholder="Search By Name, Email or Degree (Please refresh before Searching)" id="search" >
+             </div>
+
+
+            <div class="display_table">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Student Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">GPA</th>
+                    <th scope="col">Degree</th>
+                  </tr>
+                </thead>
+                <tbody id="records">
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Avi Vashishta</td>
+                    <td>avi@gmail.com</td>
+                    <td>21</td>
+                    <td>9.2</td>
+                    <td>Btech<i onclick='EditInfor(0)'><img src="./edit 1.svg"></i> <i onclick='DeleteInfo(0)'><img src="./trash-2 1.svg"></i></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          
+       
+
+      <script src="./script.js"></script>
+</body>
+</html>
